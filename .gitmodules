@@ -1,0 +1,12 @@
+[submodule "3rd/CppUTest"]
+	path = 3rd/CppUTest
+	url = git@github.com:GerHobbelt/cpputest.git
+[submodule "3rd/Catch2"]
+	path = 3rd/Catch2
+	url = git@github.com:GerHobbelt/Catch2.git
+[submodule "3rd/Catch1"]
+	path = 3rd/Catch1
+	url = git@github.com:GerHobbelt/Catch2.git
+[submodule "3rd/doctest"]
+	path = 3rd/doctest
+	url = git@github.com:GerHobbelt/doctest.git
