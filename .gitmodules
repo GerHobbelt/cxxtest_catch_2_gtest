@@ -10,3 +10,9 @@
 [submodule "3rd/doctest"]
 	path = 3rd/doctest
 	url = git@github.com:GerHobbelt/doctest.git
+[submodule "3rd/cppcheck"]
+	path = 3rd/cppcheck
+	url = git@github.com:GerHobbelt/cppcheck.git
+[submodule "3rd/check"]
+	path = 3rd/check
+	url = git@github.com:GerHobbelt/check.git
