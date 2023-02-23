@@ -140,6 +140,7 @@ typedef CppUnitTestPlugIn *(*TestPlugInSignature)();
 
 // Win32
 #if defined(CPPUNIT_HAVE_WIN32_DLL_LOADER)
+#if 0
 #if !defined(APIENTRY)
 #define WIN32_LEAN_AND_MEAN 
 #define NOGDI
@@ -148,6 +149,7 @@ typedef CppUnitTestPlugIn *(*TestPlugInSignature)();
 #define NOSOUND
 #ifndef NOMINMAX
 #define NOMINMAX
+#endif
 #endif
 #define BLENDFUNCTION void    // for mingw & gcc
 #include <windows.h>
