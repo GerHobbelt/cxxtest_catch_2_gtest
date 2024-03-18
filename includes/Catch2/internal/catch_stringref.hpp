@@ -55,7 +55,7 @@ namespace Catch {
         }
 
         constexpr auto operator[] ( size_type index ) const noexcept -> char {
-            assert(index < m_size);
+            //assert(index < m_size);
             return m_start[index];
         }
 
