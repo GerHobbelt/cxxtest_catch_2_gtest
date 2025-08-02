@@ -219,7 +219,7 @@ namespace Catch {
             m_testCases.push_back( node );
             m_rootSection.reset();
 
-            assert( m_deepestSection );
+            assert( !!m_deepestSection );
             m_deepestSection->stdOut = testCaseStats.stdOut;
             m_deepestSection->stdErr = testCaseStats.stdErr;
         }
